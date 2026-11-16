@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vapi-caller"
+version = "0.1.0"
+description = "CLI for placing, monitoring, ending, and summarizing outbound Vapi phone calls."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "[YOUR NAME]" }]
+keywords = ["vapi", "voice", "outbound", "phone", "cli"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Communications :: Telephony",
+]
+dependencies = []
+
+[project.urls]
+Documentation = "https://docs.vapi.ai"
+Source = "https://github.com/askdave755-droid/vapi-caller"
+Issues = "https://github.com/askdave755-droid/vapi-caller/issues"
+
+[project.scripts]
+vapi-caller = "vapi_caller.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
