@@ -1,0 +1,14 @@
+{
+  "name": "Outbound assistant",
+  "firstMessage": "Hi, this is a test call from our office. Is now a good time for a quick chat?",
+  "model": {
+    "provider": "openai",
+    "model": "gpt-4o",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a polite outbound assistant. State why you are calling, ask if it is a good time, and keep the conversation short. If the person is not interested or asks to stop, end the call."
+      }
+    ]
+  }
+}

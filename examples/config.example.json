@@ -1,0 +1,6 @@
+{
+  "phoneNumberId": "your-vapi-phone-number-id",
+  "assistantId": "your-vapi-assistant-id",
+  "customer": "+14155550100",
+  "name": "optional label for this call"
+}

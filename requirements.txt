@@ -1,0 +1,5 @@
+# vapi-caller uses the Python 3.10+ standard library only.
+# There are no runtime or test dependencies to install.
+#
+# Optional, so you can run the `vapi-caller` console script:
+#   python3 -m pip install -e .
